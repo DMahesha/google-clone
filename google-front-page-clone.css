@@ -1,0 +1,61 @@
+.top-banner {
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.top-banner-left {
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: center;
+}
+
+.top-banner-right {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    border: solid 1px black;
+    align-items: center;
+}
+
+.top-banner-about { cursor: pointer; }
+.top-banner-about:hover { text-decoration: underline; }
+
+.top-banner-store { cursor: pointer; }
+.top-banner-store:hover { text-decoration: underline; }
+
+.top-banner-gmail { cursor: pointer; }
+.top-banner-gmail:hover { text-decoration: underline; }
+
+.top-banner-images { cursor: pointer; }
+.top-banner-images:hover { text-decoration: underline; }
+
+.top-banner-apps { 
+    cursor: pointer; 
+    border: solid 1px black; 
+    border-radius: 50%;
+    height: 30px;
+    width: 30x;
+}
+
+.top-banner-apps:hover { 
+    background-color: #dee0e2;
+    border: solid 1px #dee0e2;
+}
+
+.top-banner-sign {
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    color:white;
+    cursor: pointer;
+}
+
+.top-banner-sign:hover {
+    background-color: rgb(2, 2, 204);
+}
